@@ -6,7 +6,7 @@ class App extends React.Component {
   onTermSubmit = term => {
     youtube.get('/search', {
       params: {
-        q: term
+        q: term,
       }
     })
   }
